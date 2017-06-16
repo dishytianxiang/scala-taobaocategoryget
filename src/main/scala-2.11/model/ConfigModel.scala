@@ -9,7 +9,7 @@ object ConfigModel {
   private val taoBaoDirPahtPro = ""
   private val taoBaoDirPahtProOutPutFile = "F:\\jingdongscrapyrecords\\taobao\\taobao\\taobaodata.txt"
   private val taoBaoCagetoryUrl = "https://tce.alicdn.com/api/data.htm?ids="
-  private val conn_str = "jdbc:mysql://172.20.176.34:3306/dishy?user=root&password=smecloud"
+  private val conn_str = "jdbc:mysql://xxxxx:3306/dishy?user=xxx&password=xxxx"
   def filePath: String = {
     if(env) taoBaoDirPahtPro else taoBaoDirPath
   }
