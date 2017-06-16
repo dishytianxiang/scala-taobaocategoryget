@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="scalaproject$sources_2.11"
+		revision="1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170615141114"/>
+	<dependencies>
+		<module organisation="mysql" name="mysql-connector-java">
+			<revision name="5.1.40" status="release" pubdate="20160925023503" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2441" time="0" location="C:\Users\kingdee\.ivy2\cache\mysql\mysql-connector-java\ivy-5.1.40.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/mysql/mysql-connector-java/5.1.40/mysql-connector-java-5.1.40.pom"/>
+				<caller organisation="default" name="scalaproject$sources_2.11" conf="compile, runtime" rev="5.1.40" rev-constraint-default="5.1.40" rev-constraint-dynamic="5.1.40" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="mysql-connector-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="900048" time="0" location="C:\Users\kingdee\.ivy2\cache\mysql\mysql-connector-java\srcs\mysql-connector-java-5.1.40-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/mysql/mysql-connector-java/5.1.40/mysql-connector-java-5.1.40-sources.jar"/>
+					</artifact>
+					<artifact name="mysql-connector-java" type="jar" ext="jar" status="no" details="" size="990924" time="0" location="C:\Users\kingdee\.ivy2\cache\mysql\mysql-connector-java\jars\mysql-connector-java-5.1.40.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/mysql/mysql-connector-java/5.1.40/mysql-connector-java-5.1.40.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-native_2.10">
+			<revision name="3.2.4" status="release" pubdate="20130404215216" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2708" time="0" location="C:\Users\kingdee\.ivy2\cache\org.json4s\json4s-native_2.10\ivy-3.2.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/json4s/json4s-native_2.10/3.2.4/json4s-native_2.10-3.2.4.pom"/>
+				<caller organisation="default" name="scalaproject$sources_2.11" conf="compile, runtime" rev="3.2.4" rev-constraint-default="3.2.4" rev-constraint-dynamic="3.2.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="json4s-native_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7356" time="0" location="C:\Users\kingdee\.ivy2\cache\org.json4s\json4s-native_2.10\srcs\json4s-native_2.10-3.2.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/json4s/json4s-native_2.10/3.2.4/json4s-native_2.10-3.2.4-sources.jar"/>
+					</artifact>
+					<artifact name="json4s-native_2.10" type="jar" ext="jar" status="no" details="" size="68734" time="0" location="C:\Users\kingdee\.ivy2\cache\org.json4s\json4s-native_2.10\jars\json4s-native_2.10-3.2.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/json4s/json4s-native_2.10/3.2.4/json4s-native_2.10-3.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-core_2.10">
+			<revision name="3.2.4" status="release" pubdate="20130404215146" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2997" time="0" location="C:\Users\kingdee\.ivy2\cache\org.json4s\json4s-core_2.10\ivy-3.2.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/json4s/json4s-core_2.10/3.2.4/json4s-core_2.10-3.2.4.pom"/>
+				<caller organisation="default" name="scalaproject$sources_2.11" conf="compile, runtime" rev="3.2.4" rev-constraint-default="3.2.4" rev-constraint-dynamic="3.2.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="json4s-core_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="36933" time="0" location="C:\Users\kingdee\.ivy2\cache\org.json4s\json4s-core_2.10\srcs\json4s-core_2.10-3.2.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/json4s/json4s-core_2.10/3.2.4/json4s-core_2.10-3.2.4-sources.jar"/>
+					</artifact>
+					<artifact name="json4s-core_2.10" type="jar" ext="jar" status="no" details="" size="568890" time="0" location="C:\Users\kingdee\.ivy2\cache\org.json4s\json4s-core_2.10\jars\json4s-core_2.10-3.2.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/json4s/json4s-core_2.10/3.2.4/json4s-core_2.10-3.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.5.2" status="release" pubdate="20121130230454" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<metadata-artifact status="no" details="" size="3508" time="0" location="C:\Users\kingdee\.ivy2\cache\com.thoughtworks.paranamer\paranamer\ivy-2.5.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/thoughtworks/paranamer/paranamer/2.5.2/paranamer-2.5.2.pom"/>
+				<caller organisation="default" name="scalaproject$sources_2.11" conf="compile, runtime" rev="2.5.2" rev-constraint-default="2.5.2" rev-constraint-dynamic="2.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27100" time="0" location="C:\Users\kingdee\.ivy2\cache\com.thoughtworks.paranamer\paranamer\srcs\paranamer-2.5.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/thoughtworks/paranamer/paranamer/2.5.2/paranamer-2.5.2-sources.jar"/>
+					</artifact>
+					<artifact name="paranamer" type="jar" ext="jar" status="no" details="" size="30190" time="0" location="C:\Users\kingdee\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.5.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/thoughtworks/paranamer/paranamer/2.5.2/paranamer-2.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-ast_2.10">
+			<revision name="3.2.4" status="release" pubdate="20130404215107" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2553" time="0" location="C:\Users\kingdee\.ivy2\cache\org.json4s\json4s-ast_2.10\ivy-3.2.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/json4s/json4s-ast_2.10/3.2.4/json4s-ast_2.10-3.2.4.pom"/>
+				<caller organisation="default" name="scalaproject$sources_2.11" conf="compile, runtime" rev="3.2.4" rev-constraint-default="3.2.4" rev-constraint-dynamic="3.2.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="json4s-ast_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7542" time="0" location="C:\Users\kingdee\.ivy2\cache\org.json4s\json4s-ast_2.10\srcs\json4s-ast_2.10-3.2.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/json4s/json4s-ast_2.10/3.2.4/json4s-ast_2.10-3.2.4-sources.jar"/>
+					</artifact>
+					<artifact name="json4s-ast_2.10" type="jar" ext="jar" status="no" details="" size="86540" time="0" location="C:\Users\kingdee\.ivy2\cache\org.json4s\json4s-ast_2.10\jars\json4s-ast_2.10-3.2.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/json4s/json4s-ast_2.10/3.2.4/json4s-ast_2.10-3.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-json_2.11">
+			<revision name="2.6" status="release" pubdate="20150111033500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3333" time="0" location="C:\Users\kingdee\.ivy2\cache\net.liftweb\lift-json_2.11\ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/liftweb/lift-json_2.11/2.6/lift-json_2.11-2.6.pom"/>
+				<caller organisation="default" name="scalaproject$sources_2.11" conf="compile, runtime" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lift-json_2.11" type="jar" ext="jar" status="no" details="" size="477969" time="0" location="C:\Users\kingdee\.ivy2\cache\net.liftweb\lift-json_2.11\jars\lift-json_2.11-2.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/liftweb/lift-json_2.11/2.6/lift-json_2.11-2.6.jar"/>
+					</artifact>
+					<artifact name="lift-json_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="34194" time="0" location="C:\Users\kingdee\.ivy2\cache\net.liftweb\lift-json_2.11\srcs\lift-json_2.11-2.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/liftweb/lift-json_2.11/2.6/lift-json_2.11-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scalap">
+			<revision name="2.11.1" status="release" pubdate="20140520160300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2546" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang\scalap\ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scalap/2.11.1/scalap-2.11.1.pom"/>
+				<caller organisation="default" name="scalaproject$sources_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalap" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="36634" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang\scalap\srcs\scalap-2.11.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scalap/2.11.1/scalap-2.11.1-sources.jar"/>
+					</artifact>
+					<artifact name="scalap" type="jar" ext="jar" status="no" details="" size="757069" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scalap/2.11.1/scalap-2.11.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.11.1" status="release" pubdate="20140520160300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3167" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang\scala-compiler\ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.pom"/>
+				<caller organisation="default" name="scalaproject$sources_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2083103" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang\scala-compiler\srcs\scala-compiler-2.11.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1-sources.jar"/>
+					</artifact>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="13449765" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.1" status="release" pubdate="20140416172200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2819" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom"/>
+				<caller organisation="default" name="scalaproject$sources_2.11" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="jar" ext="jar" status="no" details="" size="419701" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\jars\scala-parser-combinators_2.11-1.0.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"/>
+					</artifact>
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41398" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\srcs\scala-parser-combinators_2.11-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.1" status="release" pubdate="20140520160200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom"/>
+				<caller organisation="default" name="scalaproject$sources_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="555369" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.11.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1-sources.jar"/>
+					</artifact>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4372892" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jsoup" name="jsoup">
+			<revision name="1.8.1" status="release" pubdate="20140928120700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jsoup.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="The MIT License" url="http://jsoup.com/license"/>
+				<metadata-artifact status="no" details="" size="2966" time="0" location="C:\Users\kingdee\.ivy2\cache\org.jsoup\jsoup\ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/jsoup/jsoup/1.8.1/jsoup-1.8.1.pom"/>
+				<caller organisation="default" name="scalaproject$sources_2.11" conf="compile, runtime" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jsoup" type="jar" ext="jar" status="no" details="" size="300845" time="0" location="C:\Users\kingdee\.ivy2\cache\org.jsoup\jsoup\jars\jsoup-1.8.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jsoup/jsoup/1.8.1/jsoup-1.8.1.jar"/>
+					</artifact>
+					<artifact name="jsoup" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="124882" time="0" location="C:\Users\kingdee\.ivy2\cache\org.jsoup\jsoup\srcs\jsoup-1.8.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jsoup/jsoup/1.8.1/jsoup-1.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430215300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3024" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom"/>
+				<caller organisation="default" name="scalaproject$sources_2.11" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109168" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\srcs\scala-xml_2.11-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar"/>
+					</artifact>
+					<artifact name="scala-xml_2.11" type="jar" ext="jar" status="no" details="" size="647891" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\jars\scala-xml_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160309121604" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="default" name="scalaproject$sources_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911686" time="0" location="C:\Users\kingdee\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
